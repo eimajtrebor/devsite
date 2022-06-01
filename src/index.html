@@ -4,3 +4,10 @@ title: Dev Site
 ---
 
 <h1>Welcome to the {{ title }}</h1>
+<p>Loading content from the API: <span id="message"></span></p>
+<script>
+    (async function() {
+        let result = await(await fetch('/api/TestFunction?name=Testing123')).text();
+        document.querySelector('#message').textContent = result;
+    }())
+</script>
