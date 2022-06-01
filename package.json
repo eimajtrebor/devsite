@@ -1,0 +1,24 @@
+{
+  "name": "devsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @11ty/eleventy --config=eleventyconfig.js --serve",
+    "build": "npx @11ty/eleventy --config=eleventyconfig.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eimajtrebor/devsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eimajtrebor/devsite/issues"
+  },
+  "homepage": "https://github.com/eimajtrebor/devsite#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  }
+}
