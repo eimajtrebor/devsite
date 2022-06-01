@@ -18,8 +18,8 @@
 		"esbenp.prettier-vscode",
 		"sissel.shopify-liquid",
 		"bradlc.vscode-tailwindcss",
-		"adrianwilczynski.alpine-js-intellisense"
-	
+		"adrianwilczynski.alpine-js-intellisense",
+		"ms-azuretools.vscode-azurestaticwebapps"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
